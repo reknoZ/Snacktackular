@@ -1,17 +1,20 @@
 //
-//  ContentView.swift
+//  LoginView.swift
 //  Snacktackular
 //
 //  Created by Zicount on 10.02.23.
 //
+//	Source: www.youtube.com/watch?v=PxAchicsUYY
+//	Source: bit.ly/prof-g-swiftui-files
 
 import SwiftUI
 
-struct ContentView: View {
+struct LoginView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
+            Image("snack-icon")
+				.resizable()
+				.scaledToFit()
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
         }
@@ -21,6 +24,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LoginView()
     }
 }
