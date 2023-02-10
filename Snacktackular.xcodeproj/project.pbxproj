@@ -16,6 +16,10 @@
 		887E13F72995B62C007C79A0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 887E13F62995B62C007C79A0 /* FirebaseFirestore */; };
 		887E13F92995B62C007C79A0 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 887E13F82995B62C007C79A0 /* FirebaseFirestoreSwift */; };
 		887E13FB2995B62C007C79A0 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 887E13FA2995B62C007C79A0 /* FirebaseStorage */; };
+		887E13FE29964A56007C79A0 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E13FD29964A56007C79A0 /* ListView.swift */; };
+		887E1400299665DE007C79A0 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E13FF299665DE007C79A0 /* Spot.swift */; };
+		887E140229966646007C79A0 /* SpotDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E140129966646007C79A0 /* SpotDetailView.swift */; };
+		887E1404299667CD007C79A0 /* SpotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E1403299667CD007C79A0 /* SpotViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		884083B62995B3A500B7C500 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		887E13F12995B4B4007C79A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		887E13FC2995B68D007C79A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		887E13FD29964A56007C79A0 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		887E13FF299665DE007C79A0 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		887E140129966646007C79A0 /* SpotDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailView.swift; sourceTree = "<group>"; };
+		887E1403299667CD007C79A0 /* SpotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +73,10 @@
 				887E13FC2995B68D007C79A0 /* Info.plist */,
 				884083AF2995B3A300B7C500 /* SnacktackularApp.swift */,
 				884083B12995B3A300B7C500 /* LoginView.swift */,
+				887E13FD29964A56007C79A0 /* ListView.swift */,
+				887E13FF299665DE007C79A0 /* Spot.swift */,
+				887E140129966646007C79A0 /* SpotDetailView.swift */,
+				887E1403299667CD007C79A0 /* SpotViewModel.swift */,
 				884083B32995B3A500B7C500 /* Assets.xcassets */,
 				887E13F12995B4B4007C79A0 /* GoogleService-Info.plist */,
 				884083B52995B3A500B7C500 /* Preview Content */,
@@ -160,8 +172,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				887E140229966646007C79A0 /* SpotDetailView.swift in Sources */,
 				884083B22995B3A300B7C500 /* LoginView.swift in Sources */,
+				887E1404299667CD007C79A0 /* SpotViewModel.swift in Sources */,
 				884083B02995B3A300B7C500 /* SnacktackularApp.swift in Sources */,
+				887E13FE29964A56007C79A0 /* ListView.swift in Sources */,
+				887E1400299665DE007C79A0 /* Spot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
